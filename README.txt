@@ -6,3 +6,5 @@ download "SatRemote-debug-apk" from the run page.
 
 Use: pick receiver, pick remote layout, point the phone IR blaster at the receiver.
 If keys do nothing, try the other layouts, then the three signal options.
+
+Find signal button: pick a receiver and layout, aim the phone at it and tap the button repeatedly. Each tap sends Power with a different signal setting. Stop when the receiver reacts; the settings are saved for that receiver.

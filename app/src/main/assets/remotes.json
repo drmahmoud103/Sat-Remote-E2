@@ -83,21 +83,10 @@
 {
 "name": "Goto",
 "layouts": [
-0,
-1,
-2,
-3,
-4,
-5,
-6,
-7,
-8,
-9,
-10,
-11,
-12,
-13,
-14
+16,
+17,
+18,
+19
 ]
 },
 {
@@ -354,6 +343,53 @@
 12,
 13,
 14
+]
+},
+{
+"name": "Starsat C1",
+"layouts": [
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14
+]
+},
+{
+"name": "Super Track",
+"layouts": [
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14
+]
+},
+{
+"name": "Timer",
+"layouts": [
+20,
+21
 ]
 }
 ],
@@ -3903,12 +3939,12 @@
 },
 {
 "id": "K_TV",
-"label": "TV",
+"label": "TV/Radio",
 "code": 1373
 },
 {
 "id": "K_MODE",
-"label": "Mode",
+"label": "Resolution",
 "code": 1320
 },
 {
@@ -3973,7 +4009,7 @@
 },
 {
 "id": "K_PREVIOUS",
-"label": "Prev",
+"label": "<",
 "code": 1382
 },
 {
@@ -3983,7 +4019,7 @@
 },
 {
 "id": "K_NEXT",
-"label": "Next",
+"label": ">",
 "code": 1377
 },
 {
@@ -4008,7 +4044,7 @@
 },
 {
 "id": "K_OPTION",
-"label": "Option",
+"label": "Magic",
 "code": 1355
 },
 {
@@ -4128,28 +4164,1463 @@
 },
 {
 "id": "K_SUBTITLE",
-"label": "Subtitle",
+"label": "SUBT",
 "code": 1357
 },
 {
 "id": "K_TEXT",
-"label": "Text",
+"label": "TXT",
 "code": 1514
 },
 {
 "id": "K_PLAYER",
-"label": "Player",
+"label": "Context",
 "code": 1356
 },
 {
 "id": "K_BACK",
-"label": "Back",
+"label": "Recall",
 "code": 1281
 },
 {
 "id": "K_VIDEO",
-"label": "Video",
+"label": "Playlist",
 "code": 1284
+}
+]
+},
+{
+"name": "Goto - Remote 1 (public1)",
+"keys": [
+{
+"id": "GUIK_H",
+"label": "Power",
+"code": 61103
+},
+{
+"id": "GUIK_U",
+"label": "Mute",
+"code": 60943
+},
+{
+"id": "GUIK_V",
+"label": "TV/Radio",
+"code": 60983
+},
+{
+"id": "GUIK_0",
+"label": "0",
+"code": 61183
+},
+{
+"id": "GUIK_1",
+"label": "1",
+"code": 61055
+},
+{
+"id": "GUIK_2",
+"label": "2",
+"code": 61119
+},
+{
+"id": "GUIK_3",
+"label": "3",
+"code": 60991
+},
+{
+"id": "GUIK_4",
+"label": "4",
+"code": 61151
+},
+{
+"id": "GUIK_5",
+"label": "5",
+"code": 61023
+},
+{
+"id": "GUIK_6",
+"label": "6",
+"code": 61087
+},
+{
+"id": "GUIK_7",
+"label": "7",
+"code": 60959
+},
+{
+"id": "GUIK_8",
+"label": "8",
+"code": 61167
+},
+{
+"id": "GUIK_9",
+"label": "9",
+"code": 61039
+},
+{
+"id": "GUIK_M",
+"label": "Menu",
+"code": 61181
+},
+{
+"id": "GUIK_ESCAPE",
+"label": "Exit",
+"code": 61053
+},
+{
+"id": "GUIK_UP",
+"label": "▲",
+"code": 60975
+},
+{
+"id": "GUIK_LEFT",
+"label": "◀",
+"code": 61175
+},
+{
+"id": "GUIK_RETURN",
+"label": "OK",
+"code": 61007
+},
+{
+"id": "GUIK_RIGHT",
+"label": "▶",
+"code": 61047
+},
+{
+"id": "GUIK_DOWN",
+"label": "▼",
+"code": 61071
+},
+{
+"id": "GUIK_PAGE_UP",
+"label": "Page+",
+"code": 61015
+},
+{
+"id": "GUIK_PAGE_DOWN",
+"label": "Page-",
+"code": 61127
+},
+{
+"id": "GUIK_E",
+"label": "EPG",
+"code": 61095
+},
+{
+"id": "GUIK_I",
+"label": "Info",
+"code": 61117
+},
+{
+"id": "GUIK_F",
+"label": "Fav",
+"code": 61021
+},
+{
+"id": "GUIK_R",
+"label": "Recall",
+"code": 60999
+},
+{
+"id": "GUIK_S",
+"label": "Sat",
+"code": 60997
+},
+{
+"id": "GUIK_A",
+"label": "Audio",
+"code": 61135
+},
+{
+"id": "GUIK_Z",
+"label": "Zoom",
+"code": 60957
+},
+{
+"id": "GUIK_B",
+"label": "Subtitle",
+"code": 60989
+},
+{
+"id": "GUIK_T",
+"label": "Teletext",
+"code": 60967
+},
+{
+"id": "GUIK_HOME",
+"label": "USB",
+"code": 61111
+},
+{
+"id": "GUIK_PRINT",
+"label": "Rec",
+"code": 61141
+},
+{
+"id": "GUIK_SCROLLOCK",
+"label": "Stop rec",
+"code": 60949
+},
+{
+"id": "GUIK_PAUSE",
+"label": "Pause",
+"code": 60965
+},
+{
+"id": "GUIK_O",
+"label": "TimeShift",
+"code": 61085
+},
+{
+"id": "GUIK_P",
+"label": "Play",
+"code": 60981
+},
+{
+"id": "GUIK_MINUS",
+"label": "Rew",
+"code": 60935
+},
+{
+"id": "GUIK_PLUS",
+"label": "FF",
+"code": 61063
+},
+{
+"id": "GUIK_RED",
+"label": "Red",
+"code": 61079
+},
+{
+"id": "GUIK_BLUE",
+"label": "Blue",
+"code": 61031
+},
+{
+"id": "GUIK_GREEN",
+"label": "Green",
+"code": 60951
+},
+{
+"id": "GUIK_YELLOW",
+"label": "Yellow",
+"code": 61159
+},
+{
+"id": "GUIK_RCTRL",
+"label": "Goto",
+"code": 61149
+},
+{
+"id": "GUIK_Q",
+"label": "P/N",
+"code": 61143
+}
+]
+},
+{
+"name": "Goto - Remote 2 (public2)",
+"keys": [
+{
+"id": "GUIK_H",
+"label": "Power",
+"code": 65381
+},
+{
+"id": "GUIK_U",
+"label": "Mute",
+"code": 65383
+},
+{
+"id": "GUIK_V",
+"label": "TV/Radio",
+"code": 65367
+},
+{
+"id": "GUIK_0",
+"label": "0",
+"code": 65295
+},
+{
+"id": "GUIK_1",
+"label": "1",
+"code": 65461
+},
+{
+"id": "GUIK_2",
+"label": "2",
+"code": 65525
+},
+{
+"id": "GUIK_3",
+"label": "3",
+"code": 65527
+},
+{
+"id": "GUIK_4",
+"label": "4",
+"code": 65429
+},
+{
+"id": "GUIK_5",
+"label": "5",
+"code": 65493
+},
+{
+"id": "GUIK_6",
+"label": "6",
+"code": 65495
+},
+{
+"id": "GUIK_7",
+"label": "7",
+"code": 65421
+},
+{
+"id": "GUIK_8",
+"label": "8",
+"code": 65485
+},
+{
+"id": "GUIK_9",
+"label": "9",
+"code": 65487
+},
+{
+"id": "GUIK_M",
+"label": "Menu",
+"code": 65373
+},
+{
+"id": "GUIK_ESCAPE",
+"label": "Exit",
+"code": 65375
+},
+{
+"id": "GUIK_UP",
+"label": "▲",
+"code": 65439
+},
+{
+"id": "GUIK_LEFT",
+"label": "◀",
+"code": 65445
+},
+{
+"id": "GUIK_RETURN",
+"label": "OK",
+"code": 65447
+},
+{
+"id": "GUIK_RIGHT",
+"label": "▶",
+"code": 65319
+},
+{
+"id": "GUIK_DOWN",
+"label": "▼",
+"code": 65431
+},
+{
+"id": "GUIK_PAGE_UP",
+"label": "Page+",
+"code": 65423
+},
+{
+"id": "GUIK_PAGE_DOWN",
+"label": "Page-",
+"code": 65463
+},
+{
+"id": "GUIK_E",
+"label": "EPG",
+"code": 65357
+},
+{
+"id": "GUIK_I",
+"label": "Info",
+"code": 65397
+},
+{
+"id": "GUIK_F",
+"label": "Fav",
+"code": 65365
+},
+{
+"id": "GUIK_R",
+"label": "Recall",
+"code": 65335
+},
+{
+"id": "GUIK_S",
+"label": "Sat",
+"code": 65303
+},
+{
+"id": "GUIK_A",
+"label": "Audio",
+"code": 65311
+},
+{
+"id": "GUIK_Z",
+"label": "Zoom",
+"code": 65407
+},
+{
+"id": "GUIK_B",
+"label": "Subtitle",
+"code": 65399
+},
+{
+"id": "GUIK_T",
+"label": "Teletext",
+"code": 65359
+},
+{
+"id": "GUIK_HOME",
+"label": "USB",
+"code": 65511
+},
+{
+"id": "GUIK_PRINT",
+"label": "Rec",
+"code": 65509
+},
+{
+"id": "GUIK_SCROLLOCK",
+"label": "Stop rec",
+"code": 65503
+},
+{
+"id": "GUIK_G",
+"label": "Pause (STB)",
+"code": 65501
+},
+{
+"id": "GUIK_P",
+"label": "Play",
+"code": 65437
+},
+{
+"id": "GUIK_L",
+"label": "Prev",
+"code": 65519
+},
+{
+"id": "GUIK_N",
+"label": "Next",
+"code": 65327
+},
+{
+"id": "GUIK_MINUS",
+"label": "Rew",
+"code": 65453
+},
+{
+"id": "GUIK_PLUS",
+"label": "FF",
+"code": 65517
+},
+{
+"id": "GUIK_RED",
+"label": "Red",
+"code": 65469
+},
+{
+"id": "GUIK_BLUE",
+"label": "Blue",
+"code": 65343
+},
+{
+"id": "GUIK_GREEN",
+"label": "Green",
+"code": 65533
+},
+{
+"id": "GUIK_YELLOW",
+"label": "Yellow",
+"code": 65535
+},
+{
+"id": "GUIK_RCTRL",
+"label": "Goto",
+"code": 65471
+}
+]
+},
+{
+"name": "Goto - Remote 3 (public3)",
+"keys": [
+{
+"id": "GUIK_H",
+"label": "Power",
+"code": 32708
+},
+{
+"id": "GUIK_U",
+"label": "Mute",
+"code": 32710
+},
+{
+"id": "GUIK_V",
+"label": "TV/Radio",
+"code": 32612
+},
+{
+"id": "GUIK_0",
+"label": "0",
+"code": 32542
+},
+{
+"id": "GUIK_1",
+"label": "1",
+"code": 32694
+},
+{
+"id": "GUIK_2",
+"label": "2",
+"code": 32566
+},
+{
+"id": "GUIK_3",
+"label": "3",
+"code": 32716
+},
+{
+"id": "GUIK_4",
+"label": "4",
+"code": 32654
+},
+{
+"id": "GUIK_5",
+"label": "5",
+"code": 32526
+},
+{
+"id": "GUIK_6",
+"label": "6",
+"code": 32748
+},
+{
+"id": "GUIK_7",
+"label": "7",
+"code": 32686
+},
+{
+"id": "GUIK_8",
+"label": "8",
+"code": 32558
+},
+{
+"id": "GUIK_9",
+"label": "9",
+"code": 32732
+},
+{
+"id": "GUIK_M",
+"label": "Menu",
+"code": 32598
+},
+{
+"id": "GUIK_ESCAPE",
+"label": "Exit",
+"code": 32604
+},
+{
+"id": "GUIK_UP",
+"label": "▲",
+"code": 32684
+},
+{
+"id": "GUIK_LEFT",
+"label": "◀",
+"code": 32614
+},
+{
+"id": "GUIK_RETURN",
+"label": "OK",
+"code": 32652
+},
+{
+"id": "GUIK_RIGHT",
+"label": "▶",
+"code": 32636
+},
+{
+"id": "GUIK_DOWN",
+"label": "▼",
+"code": 32692
+},
+{
+"id": "GUIK_PAGE_UP",
+"label": "Page+",
+"code": 32580
+},
+{
+"id": "GUIK_PAGE_DOWN",
+"label": "Page-",
+"code": 32718
+},
+{
+"id": "GUIK_E",
+"label": "EPG",
+"code": 32660
+},
+{
+"id": "GUIK_I",
+"label": "Info",
+"code": 32756
+},
+{
+"id": "GUIK_F",
+"label": "Fav",
+"code": 32750
+},
+{
+"id": "GUIK_R",
+"label": "Recall",
+"code": 32702
+},
+{
+"id": "GUIK_S",
+"label": "Sat",
+"code": 32574
+},
+{
+"id": "GUIK_A",
+"label": "Audio",
+"code": 32734
+},
+{
+"id": "GUIK_Z",
+"label": "Zoom",
+"code": 32700
+},
+{
+"id": "GUIK_B",
+"label": "Subtitle",
+"code": 32676
+},
+{
+"id": "GUIK_T",
+"label": "Teletext",
+"code": 32572
+},
+{
+"id": "GUIK_F8",
+"label": "Sleep",
+"code": 32588
+},
+{
+"id": "GUIK_HOME",
+"label": "USB",
+"code": 32534
+},
+{
+"id": "GUIK_PRINT",
+"label": "Rec",
+"code": 32766
+},
+{
+"id": "GUIK_SCROLLOCK",
+"label": "Stop rec",
+"code": 32724
+},
+{
+"id": "GUIK_G",
+"label": "Pause (STB)",
+"code": 32540
+},
+{
+"id": "GUIK_O",
+"label": "TimeShift",
+"code": 32628
+},
+{
+"id": "GUIK_P",
+"label": "Play",
+"code": 32740
+},
+{
+"id": "GUIK_Q",
+"label": "P/N",
+"code": 32742
+},
+{
+"id": "GUIK_L",
+"label": "Prev",
+"code": 32622
+},
+{
+"id": "GUIK_N",
+"label": "Next",
+"code": 32726
+},
+{
+"id": "GUIK_MINUS",
+"label": "Rew",
+"code": 32668
+},
+{
+"id": "GUIK_PLUS",
+"label": "FF",
+"code": 32596
+},
+{
+"id": "GUIK_F1",
+"label": "Find",
+"code": 32662
+},
+{
+"id": "GUIK_D",
+"label": "PVR",
+"code": 32764
+},
+{
+"id": "GUIK_PAUSE",
+"label": "Pause",
+"code": 32540
+},
+{
+"id": "GUIK_RED",
+"label": "Red",
+"code": 32662
+},
+{
+"id": "GUIK_BLUE",
+"label": "Blue",
+"code": 32734
+},
+{
+"id": "GUIK_GREEN",
+"label": "Green",
+"code": 32700
+},
+{
+"id": "GUIK_YELLOW",
+"label": "Yellow",
+"code": 32572
+}
+]
+},
+{
+"name": "Goto - Remote 4 (public4)",
+"keys": [
+{
+"id": "GUIK_H",
+"label": "Power",
+"code": 49071
+},
+{
+"id": "GUIK_U",
+"label": "Mute",
+"code": 48999
+},
+{
+"id": "GUIK_V",
+"label": "TV/Radio",
+"code": 49095
+},
+{
+"id": "GUIK_0",
+"label": "0",
+"code": 49151
+},
+{
+"id": "GUIK_1",
+"label": "1",
+"code": 49023
+},
+{
+"id": "GUIK_2",
+"label": "2",
+"code": 49087
+},
+{
+"id": "GUIK_3",
+"label": "3",
+"code": 48959
+},
+{
+"id": "GUIK_4",
+"label": "4",
+"code": 49119
+},
+{
+"id": "GUIK_5",
+"label": "5",
+"code": 48991
+},
+{
+"id": "GUIK_6",
+"label": "6",
+"code": 49055
+},
+{
+"id": "GUIK_7",
+"label": "7",
+"code": 48927
+},
+{
+"id": "GUIK_8",
+"label": "8",
+"code": 49135
+},
+{
+"id": "GUIK_9",
+"label": "9",
+"code": 49007
+},
+{
+"id": "GUIK_M",
+"label": "Menu",
+"code": 49047
+},
+{
+"id": "GUIK_ESCAPE",
+"label": "Exit",
+"code": 48903
+},
+{
+"id": "GUIK_UP",
+"label": "▲",
+"code": 48943
+},
+{
+"id": "GUIK_LEFT",
+"label": "◀",
+"code": 49015
+},
+{
+"id": "GUIK_RETURN",
+"label": "OK",
+"code": 48975
+},
+{
+"id": "GUIK_RIGHT",
+"label": "▶",
+"code": 49143
+},
+{
+"id": "GUIK_DOWN",
+"label": "▼",
+"code": 49039
+},
+{
+"id": "GUIK_PAGE_UP",
+"label": "Page+",
+"code": 48951
+},
+{
+"id": "GUIK_PAGE_DOWN",
+"label": "Page-",
+"code": 49031
+},
+{
+"id": "GUIK_E",
+"label": "EPG",
+"code": 48919
+},
+{
+"id": "GUIK_F",
+"label": "Fav",
+"code": 49111
+},
+{
+"id": "GUIK_R",
+"label": "Recall",
+"code": 49079
+},
+{
+"id": "GUIK_S",
+"label": "Sat",
+"code": 48967
+},
+{
+"id": "GUIK_B",
+"label": "Subtitle",
+"code": 48989
+},
+{
+"id": "GUIK_T",
+"label": "Teletext",
+"code": 49117
+},
+{
+"id": "GUIK_HOME",
+"label": "USB",
+"code": 49109
+},
+{
+"id": "GUIK_PRINT",
+"label": "Rec",
+"code": 48917
+},
+{
+"id": "GUIK_SCROLLOCK",
+"label": "Stop rec",
+"code": 49109
+},
+{
+"id": "GUIK_O",
+"label": "TimeShift",
+"code": 49005
+},
+{
+"id": "GUIK_P",
+"label": "Play",
+"code": 49133
+},
+{
+"id": "GUIK_MINUS",
+"label": "Rew",
+"code": 49125
+},
+{
+"id": "GUIK_PLUS",
+"label": "FF",
+"code": 49141
+},
+{
+"id": "GUIK_RED",
+"label": "Red",
+"code": 49149
+},
+{
+"id": "GUIK_BLUE",
+"label": "Blue",
+"code": 48957
+},
+{
+"id": "GUIK_GREEN",
+"label": "Green",
+"code": 49021
+},
+{
+"id": "GUIK_YELLOW",
+"label": "Yellow",
+"code": 49085
+},
+{
+"id": "GUIK_RCTRL",
+"label": "Goto",
+"code": 49053
+},
+{
+"id": "GUIK_Q",
+"label": "P/N",
+"code": 48935
+},
+{
+"id": "GUIK_F8",
+"label": "Sleep",
+"code": 49127
+},
+{
+"id": "GUIK_F1",
+"label": "Find",
+"code": 48983
+}
+]
+},
+{
+"name": "Timer - Remote 1 (public)",
+"keys": [
+{
+"id": "GUIK_H",
+"label": "Power",
+"code": 65479
+},
+{
+"id": "GUIK_U",
+"label": "Mute",
+"code": 65519
+},
+{
+"id": "GUIK_V",
+"label": "TV/Radio",
+"code": 65445
+},
+{
+"id": "GUIK_0",
+"label": "0",
+"code": 65487
+},
+{
+"id": "GUIK_1",
+"label": "1",
+"code": 65493
+},
+{
+"id": "GUIK_2",
+"label": "2",
+"code": 65431
+},
+{
+"id": "GUIK_3",
+"label": "3",
+"code": 65367
+},
+{
+"id": "GUIK_4",
+"label": "4",
+"code": 65525
+},
+{
+"id": "GUIK_5",
+"label": "5",
+"code": 65463
+},
+{
+"id": "GUIK_6",
+"label": "6",
+"code": 65399
+},
+{
+"id": "GUIK_7",
+"label": "7",
+"code": 65485
+},
+{
+"id": "GUIK_8",
+"label": "8",
+"code": 65423
+},
+{
+"id": "GUIK_9",
+"label": "9",
+"code": 65359
+},
+{
+"id": "GUIK_M",
+"label": "Menu",
+"code": 65511
+},
+{
+"id": "GUIK_ESCAPE",
+"label": "Exit",
+"code": 65303
+},
+{
+"id": "GUIK_UP",
+"label": "▲",
+"code": 65447
+},
+{
+"id": "GUIK_LEFT",
+"label": "◀",
+"code": 65309
+},
+{
+"id": "GUIK_RETURN",
+"label": "OK",
+"code": 65439
+},
+{
+"id": "GUIK_RIGHT",
+"label": "▶",
+"code": 65311
+},
+{
+"id": "GUIK_DOWN",
+"label": "▼",
+"code": 65517
+},
+{
+"id": "GUIK_F9",
+"label": "Vol+",
+"code": 65373
+},
+{
+"id": "GUIK_F10",
+"label": "Vol-",
+"code": 65295
+},
+{
+"id": "GUIK_PAGE_UP",
+"label": "Page+",
+"code": 65503
+},
+{
+"id": "GUIK_PAGE_DOWN",
+"label": "Page-",
+"code": 65471
+},
+{
+"id": "GUIK_E",
+"label": "EPG",
+"code": 65389
+},
+{
+"id": "GUIK_I",
+"label": "Info",
+"code": 65455
+},
+{
+"id": "GUIK_F",
+"label": "Fav",
+"code": 65405
+},
+{
+"id": "GUIK_R",
+"label": "Recall",
+"code": 65527
+},
+{
+"id": "GUIK_S",
+"label": "Sat",
+"code": 65469
+},
+{
+"id": "GUIK_A",
+"label": "Audio",
+"code": 65343
+},
+{
+"id": "GUIK_Z",
+"label": "Zoom",
+"code": 65365
+},
+{
+"id": "GUIK_B",
+"label": "Subtitle",
+"code": 65413
+},
+{
+"id": "GUIK_T",
+"label": "Teletext",
+"code": 65461
+},
+{
+"id": "GUIK_C",
+"label": "Multi-pic",
+"code": 49053
+},
+{
+"id": "GUIK_PRINT",
+"label": "Rec",
+"code": 65509
+},
+{
+"id": "GUIK_SCROLLOCK",
+"label": "Stop rec",
+"code": 65383
+},
+{
+"id": "GUIK_G",
+"label": "Pause (STB)",
+"code": 65285
+},
+{
+"id": "GUIK_P",
+"label": "Play",
+"code": 65407
+},
+{
+"id": "GUIK_PAUSE",
+"label": "Pause",
+"code": 65285
+},
+{
+"id": "GUIK_L",
+"label": "Prev",
+"code": 65325
+},
+{
+"id": "GUIK_N",
+"label": "Next",
+"code": 65293
+},
+{
+"id": "GUIK_MINUS",
+"label": "Rew",
+"code": 65391
+},
+{
+"id": "GUIK_PLUS",
+"label": "FF",
+"code": 65375
+},
+{
+"id": "GUIK_O",
+"label": "TimeShift",
+"code": 65397
+},
+{
+"id": "GUIK_F1",
+"label": "Find",
+"code": 48935
+},
+{
+"id": "GUIK_F5",
+"label": "F5",
+"code": 65477
+},
+{
+"id": "GUIK_GREEN",
+"label": "Green",
+"code": 65301
+},
+{
+"id": "GUIK_YELLOW",
+"label": "Yellow",
+"code": 65287
+},
+{
+"id": "GUIK_RED",
+"label": "Red",
+"code": 65429
+},
+{
+"id": "GUIK_BLUE",
+"label": "Blue",
+"code": 65317
+}
+]
+},
+{
+"name": "Timer - Remote 2 (public2)",
+"keys": [
+{
+"id": "GUIK_H",
+"label": "Power",
+"code": 32708
+},
+{
+"id": "GUIK_U",
+"label": "Mute",
+"code": 32558
+},
+{
+"id": "GUIK_V",
+"label": "TV/Radio",
+"code": 32622
+},
+{
+"id": "GUIK_0",
+"label": "0",
+"code": 32678
+},
+{
+"id": "GUIK_1",
+"label": "1",
+"code": 32654
+},
+{
+"id": "GUIK_2",
+"label": "2",
+"code": 32670
+},
+{
+"id": "GUIK_3",
+"label": "3",
+"code": 32526
+},
+{
+"id": "GUIK_4",
+"label": "4",
+"code": 32694
+},
+{
+"id": "GUIK_5",
+"label": "5",
+"code": 32542
+},
+{
+"id": "GUIK_6",
+"label": "6",
+"code": 32566
+},
+{
+"id": "GUIK_7",
+"label": "7",
+"code": 32662
+},
+{
+"id": "GUIK_8",
+"label": "8",
+"code": 32702
+},
+{
+"id": "GUIK_9",
+"label": "9",
+"code": 32534
+},
+{
+"id": "GUIK_M",
+"label": "Menu",
+"code": 32724
+},
+{
+"id": "GUIK_ESCAPE",
+"label": "Exit",
+"code": 32532
+},
+{
+"id": "GUIK_UP",
+"label": "▲",
+"code": 32644
+},
+{
+"id": "GUIK_LEFT",
+"label": "◀",
+"code": 32548
+},
+{
+"id": "GUIK_RETURN",
+"label": "OK",
+"code": 32676
+},
+{
+"id": "GUIK_RIGHT",
+"label": "▶",
+"code": 32740
+},
+{
+"id": "GUIK_DOWN",
+"label": "▼",
+"code": 32660
+},
+{
+"id": "GUIK_PAGE_UP",
+"label": "Page+",
+"code": 32756
+},
+{
+"id": "GUIK_PAGE_DOWN",
+"label": "Page-",
+"code": 32716
+},
+{
+"id": "GUIK_E",
+"label": "EPG",
+"code": 32516
+},
+{
+"id": "GUIK_I",
+"label": "Info",
+"code": 32588
+},
+{
+"id": "GUIK_F",
+"label": "Fav",
+"code": 32518
+},
+{
+"id": "GUIK_R",
+"label": "Recall",
+"code": 32574
+},
+{
+"id": "GUIK_S",
+"label": "Sat",
+"code": 32550
+},
+{
+"id": "GUIK_A",
+"label": "Audio",
+"code": 32652
+},
+{
+"id": "GUIK_Z",
+"label": "Zoom",
+"code": 48023
+},
+{
+"id": "GUIK_B",
+"label": "Subtitle",
+"code": 32582
+},
+{
+"id": "GUIK_T",
+"label": "Teletext",
+"code": 32580
+},
+{
+"id": "GUIK_C",
+"label": "Multi-pic",
+"code": 47887
+},
+{
+"id": "GUIK_PRINT",
+"label": "Rec",
+"code": 32614
+},
+{
+"id": "GUIK_SCROLLOCK",
+"label": "Stop rec",
+"code": 32748
+},
+{
+"id": "GUIK_G",
+"label": "Pause (STB)",
+"code": 47965
+},
+{
+"id": "GUIK_P",
+"label": "Play",
+"code": 47919
+},
+{
+"id": "GUIK_PAUSE",
+"label": "Pause",
+"code": 32620
+},
+{
+"id": "GUIK_L",
+"label": "Prev",
+"code": 32540
+},
+{
+"id": "GUIK_N",
+"label": "Next",
+"code": 32668
+},
+{
+"id": "GUIK_MINUS",
+"label": "Rew",
+"code": 32604
+},
+{
+"id": "GUIK_PLUS",
+"label": "FF",
+"code": 32732
+},
+{
+"id": "GUIK_F1",
+"label": "Find",
+"code": 48029
+},
+{
+"id": "GUIK_LSHIFT",
+"label": "Green",
+"code": 48039
+},
+{
+"id": "GUIK_RSHIFT",
+"label": "Yellow",
+"code": 47911
+},
+{
+"id": "GUIK_GREEN",
+"label": "Green",
+"code": 32668
+},
+{
+"id": "GUIK_YELLOW",
+"label": "Yellow",
+"code": 32604
+},
+{
+"id": "GUIK_RED",
+"label": "Red",
+"code": 32540
+},
+{
+"id": "GUIK_BLUE",
+"label": "Blue",
+"code": 32732
 }
 ]
 }
