@@ -18,14 +18,13 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Build with Gradle Wrapper fallback or direct gradle
-      run: |
-        if [ -f "./gradlew" ]; then
-          chmod +x gradlew
-          ./gradlew assembleDebug
-        else
-          gradle assembleDebug
-        fi
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v3
+      with:
+        gradle-version: '8.5'
+
+    - name: Build APK directly
+      run: gradle assembleDebug
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
